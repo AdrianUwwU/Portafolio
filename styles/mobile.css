@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: relative;
+    background-color: #0A0909;
+    width: 100%;
+    height: 250px;
+    color:aliceblue;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header-section {
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: 10px;
+    border: 2px solid #3B3B3B;
+    border-radius: 10px;
+}
+
+.title-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    
+    
+}
+
+.title {
+    margin: 20px 0 15px 0;
+    font-size: 1.8rem;
+}
+
+.subtitle {
+    font-size: 1.55rem;
+}
+
+.separador {
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: 90px;
+    background-color: #7B7A7A;
+}
+
+.image-section{
+    background-image: url(../assets/facherin\ facherito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 95px;
+    height: 95px;
+    margin: 45px auto 0;
+    border-radius: 7px;
+    
+}
+
+
